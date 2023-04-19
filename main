@@ -547,7 +547,7 @@ function qNotePrompt(PromptSettings)
 	--Settings
 	NotePrompt.Title.Text = PromptSettings.Title or ''
 	NotePrompt.Description.Text = PromptSettings.Description or ''
-	NotePrompt.Icon.Image = PromptSettings.Icon or 'rbxassetid://4483362748'
+	NotePrompt.Icon.Image = PromptSettings.Icon or 'rbxassetid://1519624250'
 	NotePrompt.Load.BackgroundColor3 = PromptSettings.Color or Color3.fromRGB(90, 90, 90)
 	NotePrompt.Load.MouseButton1Down:Once(function(x,y)
 		CloseNPrompt()
@@ -653,7 +653,7 @@ function RayfieldLibrary:Notify(NotificationSettings)
 		if NotificationSettings.Image then
 			Notification.Icon.Image = "rbxassetid://"..tostring(NotificationSettings.Image) 
 		else
-			Notification.Icon.Image = "rbxassetid://3944680095"
+			Notification.Icon.Image = "rbxassetid://1519624250"
 		end
 
 		Notification.Icon.ImageTransparency = 1
